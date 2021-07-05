@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 48px;
+}
+
+.orange-color{
+    color: orange;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 80px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    padding-right: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight:700;
+    margin-top: 30px;
+}
+.background-image{
+    background-image: url(image/shapes/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.food-item{
+    margin-bottom: 150px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8%;
+
+}
+.food-item img{
+    
+    padding-top: 15px;
+    width: 280px;
+    height: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.flexible-two{
+    display: flex;
+    
+}
+.flexible-three{
+    display:inline-block;
+}
+
+.follower{
+    margin-bottom: 150px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 12px;
+    display: inline-block;
+}
+.abc{
+    
+        display: inline; /* the default for span */
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;  
+        background-color: yellow; 
+      
+}
+
+footer{
+    background-color: black;
+    height: 230px;
+    padding-top: 10px;
+
+}
+
+footer h1{
+    text-align: center;
+    color: rgb(141, 137, 137);
+    
+}
+footer h2{
+    text-align: center;
+    color: white;
+}
