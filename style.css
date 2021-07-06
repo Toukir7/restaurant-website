@@ -1,6 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+   
+}
+#tometo-color{
+    font-size: 70px;
+    color: rgb(247, 113, 52);
+    text-shadow: 3px 3px 7px rgb(86, 86, 88);
+
 }
 h1{
     font-size: 48px;
@@ -63,9 +69,7 @@ h1{
     display: flex;
     
 }
-.flexible-three{
-    display:inline-block;
-}
+
 
 .follower{
     margin-bottom: 150px;
@@ -79,16 +83,17 @@ h1{
     border-radius: 12px;
     display: inline-block;
 }
-.abc{
-    
-        display: inline; /* the default for span */
-        width: 100px;
-        height: 100px;
-        padding: 5px;
-        border: 1px solid blue;  
-        background-color: yellow; 
-      
+
+#extra-work{
+    background-image: url(image/shapes/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+#form-page{
+    text-align: center;
+}
+
 
 footer{
     background-color: black;
